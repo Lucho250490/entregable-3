@@ -1,0 +1,47 @@
+.Resident__pagination {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30px,1fr));
+  gap: 60px;
+  max-width: 100%;
+  padding: 10px;
+  margin: 50px 40px 20px 40px;  
+  gap: 20px;
+  
+ 
+}
+
+.Resident__pagination li {
+  color: #3300FF;
+  font-size: 30px;
+  font-weight: bold;
+  background-color:black;
+  text-align: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Resident__pagination li:hover  {
+  background-color: #3300FF;
+  color: black;
+  height: 55px;
+  width: 55px;
+  font-size: 35px;
+}
+
+
+.Resident__pagination li.active {
+  background-color: aqua;
+}
+
+
+
+
+

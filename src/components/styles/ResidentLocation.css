@@ -1,0 +1,45 @@
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 80px;
+  background-color: #062226;
+  border-radius: 8px;
+  color: #fff;
+  margin: 20px;
+  gap: 20px;
+  padding: 15px;
+  position: relative;
+}
+
+.location__name {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.location__list {
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(150px,1fr));
+  gap: 50px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 12px;
+  
+
+}
+
+.location__list span {
+  position: relative;
+  
+  font-weight: bold;
+  display: block;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
