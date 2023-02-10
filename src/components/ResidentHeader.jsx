@@ -6,13 +6,13 @@ const ResidentHeader = ({ handleSubmit }) => {
   return (
     <div className="ResidentHeader">
       <img
-        src="../public/imag/image3.svg"
+        src="/imag/image3.svg"
         alt=""
         className="ResidentHeader__img"
       />
 
       <img
-        src="../public/imag/image2.svg"
+        src="/imag/image2.svg"
         alt=""
         className="ResidentHeader__img"
       />
